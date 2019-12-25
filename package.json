@@ -1,6 +1,6 @@
 {
   "name": "cna-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy scraper for Channel News Asia articles",
   "main": "index.js",
   "scripts": {
