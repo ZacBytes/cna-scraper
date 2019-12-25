@@ -1,0 +1,34 @@
+{
+  "name": "cna-scraper",
+  "version": "1.0.0",
+  "description": "Easy scraper for Channel News Asia articles",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "sg",
+    "singapore",
+    "cna",
+    "channel news asia",
+    "scraper",
+    "news",
+    "article"
+  ],
+  "author": "Zachary Lim <zacharylimjx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "valid-url": "^1.0.9",
+    "request": "^2.88.0",
+    "srcset": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacBytes/cna-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZacBytes/cna-scraper/issues"
+  },
+  "homepage": "https://github.com/ZacBytes/cna-scraper#readme"
+}
