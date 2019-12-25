@@ -4,7 +4,7 @@
 Easy to use node_js scraper for Channel News Asia articles.
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) to install st-scraper.
+Use the package manager [npm](https://www.npmjs.com/) to install cna-scraper.
 
 ```bash
 npm install cna-scraper
