@@ -1,7 +1,7 @@
 # CNA-Scraper
 [![Build Status](https://travis-ci.com/ZacBytes/cna-scraper.svg?branch=master)](https://travis-ci.com/ZacBytes/st-scraper)
 
-Easy to use node_js scraper for Channel News Asia articles.
+Easy to use JS scraper for Channel News Asia articles.
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/) to install cna-scraper.
