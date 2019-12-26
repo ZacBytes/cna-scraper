@@ -14,14 +14,14 @@ cnascraper.prototype.ScrapeArticle = function (articleURL, callback) {
 			if (error) return console.error(error);
 			const $ = cheerio.load(body);
 
-			var title = $('h1.article_title').text();
+			var title = $('h1.article__title').text();
 			var category = $('span.article__category').text()
 			var imgparsed = srcset.parse($('picture.picture__container').find('source').attr('data-srcset')); 
-			var img = imgparsed[3];
+			var img = imgparsed[1]["url"];
 
-			var imgcaption = $('figcaption.picture_caption').text();
-			var postdate = $('time.article_details-item').text()
-			var source = $('span.article_source').text();
+			var imgcaption = $('figcaption.picture__caption').text();
+			var postdate = $('time.article__details-item').text()
+			var source = $('span.article__source').text();
 
 			var text = "";
      	 	$("div.c-rte--article").each(function(i, item){
